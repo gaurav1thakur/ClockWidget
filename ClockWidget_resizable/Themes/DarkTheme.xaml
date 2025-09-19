@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="ClockFaceBrush" Color="#0C121C"/>
+    <SolidColorBrush x:Key="HandBrush" Color="White"/>
+    <SolidColorBrush x:Key="FocusDotActiveBrush" Color="DeepSkyBlue"/>
+    <SolidColorBrush x:Key="ClockHandBrush" Color="White" />
+    <SolidColorBrush x:Key="HourHandBrush" Color="YellowGreen" /><!-- White -->
+    <SolidColorBrush x:Key="MinuteHandBrush" Color="YellowGreen" /><!-- White -->
+    <SolidColorBrush x:Key="SecondHandBrush" Color="Red" /> <!-- Red -->
+
+    <SolidColorBrush x:Key="ClockTextBrush" 
+                     Color="YellowGreen" /> <!-- Black -->
+    
+    <DropShadowEffect x:Key="ClockTextGlow"
+                  Color="YellowGreen"
+                  BlurRadius="0"
+                  ShadowDepth="0"
+                  Opacity="0" />
+
+    <DropShadowEffect x:Key="HandGlowEffect"
+                  Color="AntiqueWhite"
+                  BlurRadius="8"
+                  ShadowDepth="0"
+                  Opacity="0.5" />
+    
+    <!-- Theme-specific opacity -->
+    <System:Double x:Key="ClockOpacity">1.5</System:Double>
+
+</ResourceDictionary>
