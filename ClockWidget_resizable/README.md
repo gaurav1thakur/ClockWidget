@@ -1,6 +1,6 @@
+# 🕒 ClockWidget  
 ---
 
-# 🕒 ClockWidget  
 **A resizable, theme‑aware desktop clock with focus timer, system tray controls, and overlay mode.**  
 
 ---
