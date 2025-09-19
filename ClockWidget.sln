@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockWidget", "..\7_ClockUp_v7\ClockWidget_resizable_FIXED5_SystemTrayIconFixed\ClockWidget_resizable\ClockWidget.csproj", "{39B2F4E5-3553-89AB-4A59-52FF831F002A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockWidget.Tests", "..\7_ClockUp_v7\ClockWidget_resizable_FIXED5_SystemTrayIconFixed\ClockWidget.Tests\ClockWidget.Tests.csproj", "{CA65594D-B8B5-4408-A4AC-AFD8A68E7A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39B2F4E5-3553-89AB-4A59-52FF831F002A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B2F4E5-3553-89AB-4A59-52FF831F002A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B2F4E5-3553-89AB-4A59-52FF831F002A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B2F4E5-3553-89AB-4A59-52FF831F002A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA65594D-B8B5-4408-A4AC-AFD8A68E7A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA65594D-B8B5-4408-A4AC-AFD8A68E7A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA65594D-B8B5-4408-A4AC-AFD8A68E7A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA65594D-B8B5-4408-A4AC-AFD8A68E7A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {421F286D-718D-4882-8CB9-5C4B808F14B8}
+	EndGlobalSection
+EndGlobal
